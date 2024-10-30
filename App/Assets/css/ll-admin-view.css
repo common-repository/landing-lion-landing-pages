@@ -1,0 +1,48 @@
+/**
+*Landing Lion Settings Page styles
+*/
+
+div .wrap {
+    margin: 0px;
+}
+
+#wpwrap{
+    height:100%;
+}
+
+#ll-plugin-iframe {
+    position: absolute;
+    overflow-y: visible;
+    overflow-x: hidden;
+    width: 100%;
+    height: calc(100% - 40px);
+}
+
+#wpcontent {
+    height: 100%;
+    padding-left: 0px;
+}
+
+#wpbody,
+#wpbody-content
+{
+    height: 100%;
+    width: 100%;
+}
+
+#wpbody-content{
+    padding-bottom: 0px;
+}
+
+#wpfooter{
+    position: fixed;
+    background-color: #eceae9;
+}
+
+#toplevel_page_landing-lion-wpp-LLSettingsPage > a > div.wp-menu-image.dashicons-before > img {
+    opacity: .9;
+}
+
+#ll-submit-pages {
+    visibility: hidden;
+}
